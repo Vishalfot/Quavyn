@@ -8,12 +8,10 @@ export default function TopBar() {
   const { openChat, chatOpen, signalsDropdownOpen, toggleSignalsDropdown, setActivePage } = useApp();
   const criticalCount = SIGNAL_FEED.filter(s => s.severity === "critical").length;
   return (
-    <header className="h-20 bg-white border-b border-violet-100 flex items-center px-8 gap-4 sticky top-0 z-40 flex-shrink-0">
+    <header className="h-24 bg-white border-b border-violet-100 flex items-center px-8 gap-4 sticky top-0 z-40 flex-shrink-0">
       {/* Brand / Logo */}
-      {/* TO CHANGE LOGO: Replace the QuavynLogo component or text below with an <img src="/your-logo.svg" alt="Logo" className="h-8" /> */}
-      <div className="flex items-center gap-3 mr-4">
-        <QuavynLogo size={40} />
-        <span className="font-bold text-2xl text-violet-900 tracking-tight leading-none">quavyn</span>
+      <div className="flex items-center mr-4">
+        <QuavynLogo size={70} />
       </div>
 
       <div className="w-px h-5 bg-violet-100" />

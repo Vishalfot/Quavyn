@@ -4,7 +4,7 @@ import { SectionHeader } from "../shared/ui";
 
 const ANALYSTS = [
   { id: "business", name: "Business AI", icon: Briefcase, status: "Analysing 340 records", color: "violet" },
-  { id: "financial", name: "Financial AI", icon: DollarSign, status: "Projecting Q3 revenue", color: "emerald" },
+  { id: "financial", name: "Finance AI", icon: DollarSign, status: "Projecting Q3 revenue", color: "emerald" },
   { id: "market", name: "Market AI", icon: LineChart, status: "Monitoring 12 competitors", color: "blue" },
   { id: "risk", name: "Risk AI", icon: ShieldAlert, status: "Evaluating regulatory impact", color: "rose" },
   { id: "strategy", name: "Strategy AI", icon: Target, status: "Synthesizing convergence", color: "amber" },
